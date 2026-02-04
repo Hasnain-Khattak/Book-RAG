@@ -1,11 +1,12 @@
-fastapi 
+fastapi>=0.110
+
 uvicorn 
 pydantic 
 python-dotenv 
 langchain 
 langchain-openai 
 langchain-pinecone 
-pinecone-client
+pinecone-client>=3.0
 gunicorn
 langchain-core
 langchain-community
