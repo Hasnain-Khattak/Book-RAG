@@ -1,0 +1,40 @@
+rag_pipeline.py
+RAG-SYSTEM-BOOK.docx
+The Carbonated Body - AI RAG Index.pdf
+Website-Link.txt
+vector_db.py
+api_keys.txt
+book.ipynb
+
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Streamlit
+.streamlit/
+
+# Logs / temp
+*.log
+/tmp/
