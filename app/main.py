@@ -19,10 +19,13 @@ app = FastAPI(
 # CORS – restrict in production!
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],           # → change to your WordPress domain(s)
+    allow_origins=[
+        "https://thecarbonatedbody.com",
+        "https://www.thecarbonatedbody.com"
+    ],
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["POST"],
+    allow_headers=["Authorization", "Content-Type"],
 )
 
 # Get API secret from env (optional)
